@@ -164,10 +164,6 @@ nav{
       color: #cfa32a;
     }
     
-    .logo{
-     font-size: 10px;
-    }
-
   }
   .content{
     position: absolute;
@@ -184,6 +180,12 @@ nav{
     font-size: 40px;
     font-weight: 700;
   }
+
+@media screen and (max-width: 768px){
+  .logo{
+    font-size: 24px;
+  }
+}
 
 /* banner */
 
