@@ -80,7 +80,7 @@ nav{
 
   nav .logo{
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Naive Deco Sans Double';
   }
@@ -164,9 +164,7 @@ nav{
       color: #cfa32a;
     }
     
-    .logo{
-     font-size: 10px;
-    }
+    
 
   }
   .content{
