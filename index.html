@@ -18,21 +18,40 @@
 <body>
 
     <!--Navbar-->
-    <nav>
-        <div class="logo">
-            SYSTEM TECHNOLOGY
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>SYSTEM TECHNOLOGY</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#serviços" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#sobre-nós" class="nav-link">Sobre Nós</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#orçamento">Solicitar Orçamento</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#serviços" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#sobre-nós" class="nav-link">Sobre Nós</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#orçamento">Solicitar Orçamento</a></button>
+            </div>
         </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#serviços">Serviço</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="#sobre-nós">Sobre nós</a></li>
-        </ul>
-    </nav>
+    </header>
 
 
     <!--Banner-->
@@ -41,7 +60,7 @@
             <div class="container-banner">
                 <h1>Está precisando de eletricista ou <br>automatizar sua casa?</h1>
                 <p>Não perca seu tempo, solicite já um especialista!</p>
-                <button>Solicitar Orçamento</button>
+                <button><a href="#orçamento">Solicitar Orçamento</a></button>
             </div>
         </div>
     </header>
@@ -111,7 +130,7 @@
         <input type="hidden" name="_autoresponse"
             value="Recebemos sua mensagem, obrigado por solicitar um orçamento, logo responderemos!">
         <section id="form-section">
-            <h2>Solicitar Orçamento</h2>
+            <h2 id="orçamento">Solicitar Orçamento</h2>
             <form id="quote-form" action="https://formsubmit.co/systemtecnology8@gmail.com" method="POST">
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html" />
                 <form id="quote-form">
