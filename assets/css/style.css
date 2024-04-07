@@ -164,7 +164,9 @@ nav{
       color: #cfa32a;
     }
     
-    
+    .logo{
+     font-size: 10px;
+    }
 
   }
   .content{
