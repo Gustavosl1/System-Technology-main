@@ -163,6 +163,11 @@ nav{
       background: none;
       color: #cfa32a;
     }
+    
+    nav .logo{
+     font-size: 10px;
+    }
+
   }
   .content{
     position: absolute;
