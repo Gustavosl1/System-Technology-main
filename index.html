@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/abddfb1a86.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/image/icon.png">
+    <title>System Technology</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav>
+        <div class="logo">
+            SYSTEM TECHNOLOGY
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#serviços">Serviço</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#sobre-nós">Sobre nós</a></li>
+        </ul>
+    </nav>
+
+
+    <!--Banner-->
+    <header>
+        <div class="banner">
+            <div class="container-banner">
+                <h1>Está precisando de eletricista ou <br>automatizar sua casa?</h1>
+                <p>Não perca seu tempo, solicite já um especialista!</p>
+                <button>Solicitar Orçamento</button>
+            </div>
+        </div>
+    </header>
+
+    <!--Sobre nós-->
+    <h1 class="titlee">Sobre Nós</h1>
+    <section class="about" id="sobre-nós">
+        <div class="container">
+            <div class="about-content">
+                <img src="./assets/image/logo.png" alt="Empresa">
+                <p>
+                    A Empresa System Technology é uma empresa versátil e especializada em serviços elétricos e automação
+                    residencial. Com uma equipe de eletricistas experientes e qualificados, estamos dedicados a fornecer
+                    soluções elétricas confiáveis e eficientes para nossos clientes. Além disso, somos especializados em
+                    automação residencial, oferecendo tecnologias inovadoras para tornar sua casa mais inteligente,
+                    segura e eficiente energeticamente.
+                    Desde a instalação de sistemas elétricos até a implementação de soluções de automação residencial,
+                    nossa equipe está pronta para lidar com uma ampla gama de projetos. Nosso compromisso é garantir a
+                    satisfação do cliente, fornecendo serviços da mais alta qualidade e soluções personalizadas para
+                    atender às necessidades específicas de cada projeto.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--card-Serviços-->
+    <div class="serviços" id="serviços">
+        <h1 class="title">Nosso Serviços</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="/assets/image/raio.png" alt="Serviço de Eletricista">
+                <div class="card-content">
+                    <h3>Instalações <br> Elétricas</h3>
+                    <p>Realizamos instalações elétricas residenciais e comerciais com segurança e qualidade,estamos
+                        equipados para lidar com todas as suas necessidades .</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/image/capacete.png" alt="Serviço de Eletricista">
+                <div class="card-content">
+                    <h3>Manutenção e Reparos</h3>
+                    <p>Oferecemos serviços de manutenção preventiva e reparos elétricos para garantir o funcionamento
+                        contínuo e seguro de sua propriedade.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/image/servico-eletrico.png" alt="Serviço de Eletricista">
+                <div class="card-content">
+                    <h3>Atualizações e remodelações</h3>
+                    <p>Se você estiver atualizando sua propriedade ou realizando uma reforma, podemos ajudá-lo com
+                        atualizações elétricas eficientes e de alta qualidade.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/image/icons8-automação-residencial-96.png" alt="Serviço de Eletricista">
+                <div class="card-content">
+                    <h3>Automação Residencial</h3>
+                    <p>Oferecemos soluções de automação residencial personalizadas para tornar sua casa mais
+                        inteligente, segura e eficiente energeticamente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Formulario-->
+    <main>
+        <input type="hidden" name="_autoresponse"
+            value="Recebemos sua mensagem, obrigado por solicitar um orçamento, logo responderemos!">
+        <section id="form-section">
+            <h2>Solicitar Orçamento</h2>
+            <form id="quote-form" action="https://formsubmit.co/systemtecnology8@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html" />
+                <form id="quote-form">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Assunto:</label>
+                        <textarea id="text" name="subject" rows="1" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-content">
+            <img src="./assets/image/logo.png" alt="">
+            <h3>System Technology</h3>
+            <p>Entre em contato conosco hoje mesmo para todas as suas necessidades elétricas!</p>
+            <p id="contato">Telefone: (11) 98244-1611</p>
+            <p>Email: systemtecnology8@gmail.com </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 System Technology. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
