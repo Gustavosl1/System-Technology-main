@@ -180,6 +180,11 @@ nav .nav-link:hover {
   .open {
       display: block;
   }
+
+  .logo h1 {
+      font-size: 19px;
+  }
+
 }
 
   
@@ -358,7 +363,7 @@ nav .nav-link:hover {
 }
 
 .about-content img {
-  max-width: 370px;
+  max-width: 250px;
   height: auto;
   margin-bottom: 20px;
   background-color: #001E36;
@@ -389,6 +394,7 @@ nav .nav-link:hover {
   .about-content p {
       max-width: 60%;
       font-size: 15px;
+      text-align: justify;
   }
 
   
