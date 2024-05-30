@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="./assets/image/icon.png">
     <title>System Tecnology</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
@@ -29,6 +30,8 @@
                     <li class="nav-item"><a href="#serviços" class="nav-link">Serviços</a></li>
                     <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
                     <li class="nav-item"><a href="#sobre-nós" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="#Galeria" class="nav-link">Galeria</a></li>
+
                 </ul>
             </div>
             <div class="login-button">
@@ -45,6 +48,7 @@
                 <li class="nav-item"><a href="#serviços" class="nav-link">Serviços</a></li>
                 <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
                 <li class="nav-item"><a href="#sobre-nós" class="nav-link">Sobre Nós</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
             </ul>
 
             <div class="login-button">
@@ -55,8 +59,9 @@
 
 
     <!--Banner-->
-    <header>
-        <div class="banner">
+    <section class="hidden">
+        <header>
+        <div class="banner" >
             <div class="container-banner">
                 <h1>Está precisando de eletricista ou <br>automatizar sua casa?</h1>
                 <p>Não perca seu tempo, solicite já um especialista!</p>
@@ -64,9 +69,12 @@
             </div>
         </div>
     </header>
+    </section>
+    
 
     <!--Sobre nós-->
-    <section class="about" id="sobre-nós">
+    <section class="hidden"> 
+        <section class="about" id="sobre-nós">
         <h1 class="titlee">Sobre Nós</h1>
         <div class="container">
             <div class="about-content">
@@ -83,15 +91,19 @@
                     atender às necessidades específicas de cada projeto.
                     <br>
                     <br>
-                   <strong>Desperte a energia da sua casa ou negócio com projetos elétricos que combinam expertise e tecnologia para o seu conforto e segurança</strong> 
-                    
+                    <strong>Desperte a energia da sua casa ou negócio com projetos elétricos que combinam expertise e
+                        tecnologia para o seu conforto e segurança</strong>
+
                 </p>
             </div>
         </div>
     </section>
+    </section>
+    
 
     <!--card-Serviços-->
-    <div class="serviços" id="serviços">
+    <section class="hidden">
+        <div class="serviços" id="serviços">
         <h1 class="title">Nosso Serviços</h1>
         <div class="card-container">
             <div class="card">
@@ -135,15 +147,17 @@
             </div>
         </div>
     </div>
+    </section>
+    
 
     <!--Formulario-->
     <main>
         <input type="hidden" name="_autoresponse"
             value="Recebemos sua mensagem, obrigado por solicitar um orçamento, logo responderemos!">
-        <section id="form-section">
+        <section id="form-section" class="hidden">
             <h2 id="orçamento">Solicitar Orçamento</h2>
             <form id="quote-form" action="https://formsubmit.co/systemtecnology8@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="https://systemtecnology.com.br//sucesso.html"/>
+                <input type="hidden" name="_next" value="https://systemtecnology.com.br//sucesso.html" />
                 <input type="hidden" name="_captcha" value="false">
 
 
@@ -173,6 +187,24 @@
         </section>
     </main>
 
+    <section class="hidden">
+        <div class="Galeria" id="Galeria">
+            <h1 class="title2">Galeria</h1>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="./assets/image/IMG-01.jpg" alt="Eletricista">
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/image/IMG-02.jpg" alt="Eletricista">
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/image/IMG-03.jpg" alt="Eletricista">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!--Footer-->
     <footer>
         <div class="footer-content">
@@ -184,7 +216,9 @@
             <ul class="socials">
                 <li><a href="https://www.instagram.com/system_.tecnology/"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="mailto:systemtecnology8@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5511982441611&text=Ol%C3%A1%2CCarlos%2Cgostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os."><i class="fa fa-whatsapp"></i></a></li>
+                <li><a
+                        href="https://api.whatsapp.com/send?phone=5511982441611&text=Ol%C3%A1%2CCarlos%2Cgostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os."><i
+                            class="fa fa-whatsapp"></i></a></li>
                 <li><a href="https://www.facebook.com/systemtecnology8"><i class="fa fa-facebook"></i></a></li>
 
             </ul>
@@ -193,7 +227,6 @@
             <p>© 2024 System Tecnology. Todos os direitos reservados.</p>
         </div>
     </footer>
-
     <script src="./assets/js/script.js"></script>
 </body>
 
