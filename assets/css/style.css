@@ -141,6 +141,14 @@ nav .nav-link:hover {
   background-color: #cfa32a;
 }
 
+.login-button button::before {
+  content: "\f2f6";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+
 .login-button button a {
   text-decoration: none;
   color: #fff;
@@ -243,11 +251,12 @@ nav .nav-link:hover {
   font-style: normal;
 }
 
+
+
 .banner button a {
   text-decoration: none;
   color: #fff;
 }
-
 
 .banner h1,
 .banner p {
@@ -265,12 +274,22 @@ nav .nav-link:hover {
   font-weight: 600;
   font-style: normal;
   font-size: 20px;
-  transition: calc();
+  animation: alternate 1s infinite;
+  transition: 0.5s ease all 0s; 
+}
+
+.banner button::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 10px;
 }
 
 .banner button:hover {
   background-color: #000000;
 }
+
+
 
 @media screen and (max-width: 768px) {
   .banner h1 {
